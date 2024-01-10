@@ -10,16 +10,11 @@ img{
 .more-content {
     overflow: hidden;
 }
-.read-more {
-    display: inline;
-    cursor: pointer;
-    color: blue;
-}
+
 
 @media only screen and (max-width : 700px){
     .more-container {
         max-width: 200px;
-        
     }
     img{
         width: 100%;
@@ -28,9 +23,5 @@ img{
     .more-content {
         overflow: hidden;
     }
-    .read-more {
-        display: inline;
-        cursor: pointer;
-        color: blue;
-    }
+    
 }
