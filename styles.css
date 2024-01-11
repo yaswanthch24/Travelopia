@@ -84,32 +84,50 @@ body {
 }
 
 
-@media only screen and (max-width : 700px) {
+@media only screen and (max-width : 500px) {
+   
     .more-container {
         max-width: 200px;
     }
 
-    .image-container {
-        position: relative;
-        width: 100%;
-        height: 300px;
-    }
-
-    ul {
-        list-style: none;
-    }
-
-    .head {
-        text-align: center;
+    .more-content {
+        overflow: hidden;
     }
 
     img {
         width: 100%;
-        height: 30%;
     }
 
-    .more-content {
-        overflow: hidden;
+    .image-container {
+        position: relative;
+        width: 50%;
+        height: 50%;
+    }
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .n1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: larger;
+    }
+    .head{
+        text-align: center;
+    }
+
+    ul{
+        display: contents;
+    }
+    button{
+        font-size: 10px;
     }
 
 }
