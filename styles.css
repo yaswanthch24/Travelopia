@@ -85,7 +85,7 @@ body {
 
 
 @media only screen and (max-width : 500px) {
-   
+
     .more-container {
         max-width: 200px;
     }
@@ -96,12 +96,13 @@ body {
 
     img {
         width: 100%;
+        height: 500px;
     }
 
     .image-container {
         position: relative;
         width: 50%;
-        height: 50%;
+        height: 100%;
     }
 
     .text {
@@ -119,14 +120,16 @@ body {
         padding-right: 10px;
         font-size: larger;
     }
-    .head{
+
+    .head {
         text-align: center;
     }
 
-    ul{
+    ul {
         display: contents;
     }
-    button{
+
+    button {
         font-size: 10px;
     }
 
