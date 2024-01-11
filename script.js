@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
             readMoreButton.style.display = 'block';
             truncateContent();
         } else {
-            readMoreButton.style.display = 'none'; 
-            moreContent.innerHTML = originalText; 
+            readMoreButton.style.display = 'none';
+            moreContent.innerHTML = originalText;
         }
     }
 
